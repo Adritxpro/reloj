@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+.reloj{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: .5rem;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;
+    letter-spacing: 3px;
+}
+
+#horas, #minutos, #segundos{
+    letter-spacing: 3px;
+    color: red;
+}
